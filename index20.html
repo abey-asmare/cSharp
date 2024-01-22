@@ -1,0 +1,1727 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="en" property="og:locale"/>
+  <title>
+   GPTGO - ChatGPT Free combined Search Engine
+  </title>
+  <meta content="Formerly known as GooGPT, GPTGO is a prominent search engine that combines Google search technology and the intelligent response capabilities of ChatGPT for free. It is a modern search tool with many unique features." name="description"/>
+  <meta content="1 days" name="revisit-after"/>
+  <meta content="/assets/img/gptgo-thumb.png" itemprop="image"/>
+  <meta content="summary" name="twitter:card"/>
+  <meta content="GPTGO - ChatGPT Free combined Search Engine" name="twitter:title"/>
+  <meta content="Formerly known as GooGPT, GPTGO is a prominent search engine that combines Google search technology and the intelligent response capabilities of ChatGPT for free. It is a modern search tool with many unique features." name="twitter:description"/>
+  <meta content="/assets/img/gptgo-thumb.png" name="twitter:image:src"/>
+  <meta content="GPTGO - ChatGPT Free combined Search Engine" property="og:title"/>
+  <meta content="article" property="og:type"/>
+  <meta content="/assets/img/gptgo-thumb.png" property="og:image"/>
+  <meta content="Formerly known as GooGPT, GPTGO is a prominent search engine that combines Google search technology and the intelligent response capabilities of ChatGPT for free. It is a modern search tool with many unique features." property="og:description"/>
+  <meta content="GPTGO.AI" property="og:site_name"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="notranslate" name="google"/>
+  <link href="/assets/img/android-chrome-192x192.png" rel="apple-touch-icon" sizes="192x192"/>
+  <link href="/assets/img/favicon.ico" rel="shortcut icon"/>
+  <link crossorigin="anonymous" href="vendor/bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/navbar.css?s=186" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/framework.css" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/custom-animation.css" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/highlight.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/highlight.dark.min.css" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/style.css?s=2706" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/responsive.css?s=1406" media="all" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="css/swiper-bundle.min.css" rel="stylesheet"/>
+  <link href="https://gptgo.ai/?hl=en" hreflang="x-default" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=en" hreflang="en" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=fr" hreflang="fr" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=de" hreflang="de" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=id" hreflang="id" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=pt" hreflang="pt" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=es" hreflang="es" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=tr" hreflang="tr" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=vi" hreflang="vi" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=ar" hreflang="ar" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=zh" hreflang="zh" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=cs" hreflang="cs" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=hi" hreflang="hi" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=it" hreflang="it" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=ja" hreflang="ja" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=ko" hreflang="ko" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=ms" hreflang="ms" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=fa" hreflang="fa" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=ru" hreflang="ru" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=th" hreflang="th" rel="alternate"/>
+  <link href="https://gptgo.ai/?hl=uk" hreflang="uk" rel="alternate"/>
+  <meta content="index, follow" name="robots"/>
+  <link href="https://gptgo.ai/?hl=en" rel="canonical"/>
+  <script async="" defer="" src="//nc.pubpowerplatform.io/w/53be967a-f4cb-4f76-82b1-fc89bf1708ee.js" type="text/javascript">
+  </script>
+  <style>
+   #home_gptlanguage {
+        max-height: 400px;
+        overflow-y: scroll;
+      }
+
+      .scroll-top {
+        bottom: 110px;
+      }
+
+      .hero-banner {
+        padding: 160px 0 11px;
+      }
+
+      .theme-main-menu {
+        max-width: 1440px;
+        width: calc(100vw - 40px);
+        box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+      }
+
+      @media screen and (max-width: 1440px) {
+        .hero-banner {
+          padding: 130px 0 11px;
+        }
+
+        .hero-banner .hero-heading {
+          margin: 38px 0 40px;
+        }
+
+      }
+
+      @media screen and (max-width: 1368px) {
+        .hero-banner {
+          padding: 115px 0 11px;
+        }
+
+        .hero-banner .hero-heading {
+          margin: 30px 0 30px;
+          font-size: 38px;
+        }
+
+        .hero-banner .form-search {
+          padding: 10px;
+        }
+
+        .navbar-expand-lg {
+          padding: 0px;
+        }
+      }
+
+      @media screen and (max-width: 1281px) {
+        .hero-banner {
+          padding: 100px 0 8px;
+        }
+
+        .theme-main-menu.theme-menu-one {
+          padding: 12px 30px;
+        }
+
+
+        .hero-banner .hero-heading {
+          margin: 20px 0 20px;
+          font-size: 36px;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+
+        .scroll-top {
+          bottom: 20px;
+        }
+
+        .theme-main-menu {
+          width: calc(100vw - 30px);
+        }
+
+        .navbar-collapse {
+          right: -15px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .hero-banner {
+          padding: 70px 0 15px;
+        }
+
+        .theme-main-menu {
+          width: calc(100vw - 10px);
+        }
+
+        .navbar-collapse {
+          right: -5px;
+        }
+
+        .hero-banner .hero-heading {
+          margin: 25px 0 25px;
+          font-size: 36px;
+          line-height: 1.2;
+        }
+
+      }
+      
+      .link-searchgpt {
+      font-family: hanken grotesk, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      width: 204px;
+      height: 48px;
+      border-radius: 60px;
+      background: #5b38f5;
+      transition: .4s ease;
+      padding: 10px;
+      color: #fff;
+      line-height: 30px;
+      }
+
+      .link-searchgpt:hover {
+      color: #fff;
+      }
+  </style>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,600&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="vi_ads_nearby nearby_left">
+   <pubtag class="adsbypubpower" data-ad-slot="pw_15215" style="width:160px;height:600px;display:inline-block;">
+   </pubtag>
+  </div>
+  <div class="vi_ads_nearby nearby_right">
+   <pubtag class="adsbypubpower" data-ad-slot="pw_15216" style="width:160px;height:600px;display:inline-block;">
+   </pubtag>
+  </div>
+  <style>
+   .vi_ads_nearby {
+        top: 130px;
+        position: absolute;
+        z-index: 9999;
+      }
+
+      .nearby_left {
+        left: 15px;
+      }
+
+      .nearby_right {
+        right: 15px;
+      }
+
+      @media screen and (max-width: 1400px), screen and (max-height: 720px) {
+        .vi_ads_nearby {
+          display: none;
+        }
+      }
+  </style>
+  <div class="main-page-wrapper">
+   <header class="theme-main-menu sticky-menu theme-menu-one">
+    <div class="inner-content">
+     <div class="main-nav d-flex align-items-center justify-content-between">
+      <div class="logo order-lg-0">
+       <a class="d-block" href="https://gptgo.ai/?hl=en">
+        <img alt="" src="images/logo/gpt_logo.png" width="130"/>
+       </a>
+      </div>
+      <nav class="navbar navbar-expand-lg order-lg-2">
+       <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler d-block d-lg-none" type="button">
+        <span>
+        </span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+         <li class="d-block d-lg-none">
+          <div class="logo">
+           <a href="/">
+            <img alt="" src="images/logo/gpt_logo.png" width="130"/>
+           </a>
+          </div>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="https://blog.gptgo.ai" role="button">
+           Blog
+          </a>
+         </li>
+         <li class="nav-item nav-contact">
+          <a class="nav-link" href="https://discord.gg/2vJgNZrHK4" role="button" target="_blank">
+           Discord
+          </a>
+         </li>
+         <li class="nav-item dropdown">
+          <a aria-expanded="false" class="nav-link dropdown-toggle nav-lang" data-bs-auto-close="outside" data-bs-toggle="dropdown" role="button">
+           <span class="active">
+            English
+           </span>
+           <i class="bi bi-chevron-down">
+           </i>
+          </a>
+          <ul class="dropdown-menu dropdown-lang">
+           <li class="lang-item">
+            <a class="dropdown-item active" data-lang="en" href="/?hl=en">
+             English
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="fr" href="/?hl=fr">
+             French
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="de" href="/?hl=de">
+             German
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="id" href="/?hl=id">
+             Indonesian
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="pt" href="/?hl=pt">
+             Portuguese
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="es" href="/?hl=es">
+             Spanish; Cast...
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="tr" href="/?hl=tr">
+             Turkish
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="vi" href="/?hl=vi">
+             Vietnamese
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="ar" href="/?hl=ar">
+             Arabic
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="zh" href="/?hl=zh">
+             Chinese
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="cs" href="/?hl=cs">
+             Czech
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="hi" href="/?hl=hi">
+             Hindi
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="it" href="/?hl=it">
+             Italian
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="ja" href="/?hl=ja">
+             Japanese
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="ko" href="/?hl=ko">
+             Korean
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="ms" href="/?hl=ms">
+             Malay
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="fa" href="/?hl=fa">
+             Persian
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="ru" href="/?hl=ru">
+             Russian
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="th" href="/?hl=th">
+             Thai
+            </a>
+           </li>
+           <li class="lang-item">
+            <a class="dropdown-item" data-lang="uk" href="/?hl=uk">
+             Ukrainian
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+      </nav>
+     </div>
+    </div>
+   </header>
+   <div class="hero-banner">
+    <div class="container">
+     <div class="row">
+      <div class="col-xl-8 col-xl-7 col-lg-8 col-md-11 m-auto">
+       <h1 class="hero-heading">
+        <span>
+         Free ChatGPT
+        </span>
+        and Search Engine
+       </h1>
+       <form action="/?hl=en" data-gtm-form-interact-id="0" id="form_id" name="form">
+        <div class="form-search">
+         <div class="search-container">
+          <div class="search-content">
+           <img alt="" src="images/logo/text.svg"/>
+           <input autocapitalize="off" autocomplete="off" autocorrect="off" class="search-input" data-autofocus="0" data-gtm-form-interact-field-id="0" data-suestions="1" id="search-input" name="q" placeholder="Write question here..." tabindex="1" type="text" value=""/>
+           <input name="hl" type="hidden" value="vi"/>
+           <input id="input-hlgpt" name="hlgpt" type="hidden" value="default"/>
+          </div>
+          <div class="search-lang" id="home-lang">
+           <ul>
+            <li class="nav-item dropdown">
+             <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-auto-close="outside" data-bs-toggle="dropdown" href="#" id="selected_gptlang" role="button">
+              Default
+             </a>
+             <ul class="dropdown-menu" id="home_gptlanguage">
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="en">
+                English
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fr">
+                French
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="de">
+                German
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="id">
+                Indonesian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="pt">
+                Portuguese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="es">
+                Spanish; Cast...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tr">
+                Turkish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="vi">
+                Vietnamese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ab">
+                Abkhaz
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="aa">
+                Afar
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="af">
+                Afrikaans
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ak">
+                Akan
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sq">
+                Albanian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="am">
+                Amharic
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ar">
+                Arabic
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="an">
+                Aragonese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="hy">
+                Armenian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="as">
+                Assamese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="av">
+                Avaric
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ae">
+                Avestan
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ay">
+                Aymara
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="az">
+                Azerbaijani
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bm">
+                Bambara
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ba">
+                Bashkir
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="eu">
+                Basque
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="be">
+                Belarusian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bn">
+                Bengali
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bh">
+                Bihari
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bi">
+                Bislama
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bs">
+                Bosnian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="br">
+                Breton
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bg">
+                Bulgarian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="my">
+                Burmese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ca">
+                Catalan; Vale...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ch">
+                Chamorro
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ce">
+                Chechen
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ny">
+                Chichewa; Che...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="zh">
+                Chinese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="cv">
+                Chuvash
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kw">
+                Cornish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="co">
+                Corsican
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="cr">
+                Cree
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="hr">
+                Croatian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="cs">
+                Czech
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="da">
+                Danish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="dv">
+                Divehi; Dhive...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nl">
+                Dutch
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="eo">
+                Esperanto
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="et">
+                Estonian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ee">
+                Ewe
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fo">
+                Faroese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fj">
+                Fijian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fi">
+                Finnish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ff">
+                Fula; Fulah; ...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="gl">
+                Galician
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ka">
+                Georgian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="el">
+                Greek, Modern
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="gn">
+                Guaraní
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="gu">
+                Gujarati
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ht">
+                Haitian; Hait...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ha">
+                Hausa
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="he">
+                Hebrew (moder...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="hz">
+                Herero
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="hi">
+                Hindi
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ho">
+                Hiri Motu
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="hu">
+                Hungarian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ia">
+                Interlingua
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ie">
+                Interlingue
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ga">
+                Irish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ig">
+                Igbo
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ik">
+                Inupiaq
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="io">
+                Ido
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="is">
+                Icelandic
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="it">
+                Italian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="iu">
+                Inuktitut
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ja">
+                Japanese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="jv">
+                Javanese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kl">
+                Kalaallisut, ...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kn">
+                Kannada
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kr">
+                Kanuri
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ks">
+                Kashmiri
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kk">
+                Kazakh
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="km">
+                Khmer
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ki">
+                Kikuyu, Gikuy...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="rw">
+                Kinyarwanda
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ky">
+                Kirghiz, Kyrg...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kv">
+                Komi
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kg">
+                Kongo
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ko">
+                Korean
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ku">
+                Kurdish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="kj">
+                Kwanyama, Kua...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="la">
+                Latin
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lb">
+                Luxembourgish...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lg">
+                Luganda
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="li">
+                Limburgish, L...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ln">
+                Lingala
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lo">
+                Lao
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lt">
+                Lithuanian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lu">
+                Luba-Katanga
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="lv">
+                Latvian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="gv">
+                Manx
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mk">
+                Macedonian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mg">
+                Malagasy
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ms">
+                Malay
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ml">
+                Malayalam
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mt">
+                Maltese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mi">
+                Māori
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mr">
+                Marathi (Mar�...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mh">
+                Marshallese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="mn">
+                Mongolian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="na">
+                Nauru
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nv">
+                Navajo, Navah...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nb">
+                Norwegian Bok...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nd">
+                North Ndebele
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ne">
+                Nepali
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ng">
+                Ndonga
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nn">
+                Norwegian Nyn...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="no">
+                Norwegian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ii">
+                Nuosu
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="nr">
+                South Ndebele
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="oc">
+                Occitan
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="oj">
+                Ojibwe, Ojibw...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="cu">
+                Old Church Sl...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="om">
+                Oromo
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="or">
+                Oriya
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="os">
+                Ossetian, Oss...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="pa">
+                Panjabi, Punj...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="pi">
+                Pāli
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fa">
+                Persian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="pl">
+                Polish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ps">
+                Pashto, Pusht...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="qu">
+                Quechua
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="rm">
+                Romansh
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="rn">
+                Kirundi
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ro">
+                Romanian, Mol...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ru">
+                Russian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sa">
+                Sanskrit (Sa�...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sc">
+                Sardinian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sd">
+                Sindhi
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="se">
+                Northern Sami
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sm">
+                Samoan
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sg">
+                Sango
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sr">
+                Serbian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="gd">
+                Scottish Gael...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sn">
+                Shona
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="si">
+                Sinhala, Sinh...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sk">
+                Slovak
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sl">
+                Slovene
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="so">
+                Somali
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="st">
+                Southern Soth...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="su">
+                Sundanese
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sw">
+                Swahili
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ss">
+                Swati
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="sv">
+                Swedish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ta">
+                Tamil
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="te">
+                Telugu
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tg">
+                Tajik
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="th">
+                Thai
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ti">
+                Tigrinya
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="bo">
+                Tibetan Stand...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tk">
+                Turkmen
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tl">
+                Tagalog
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tn">
+                Tswana
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="to">
+                Tonga (Tonga ...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ts">
+                Tsonga
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tt">
+                Tatar
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="tw">
+                Twi
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ty">
+                Tahitian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ug">
+                Uighur, Uyghu...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="uk">
+                Ukrainian
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ur">
+                Urdu
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="uz">
+                Uzbek
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="ve">
+                Venda
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="vo">
+                Volapük
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="wa">
+                Walloon
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="cy">
+                Welsh
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="wo">
+                Wolof
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="fy">
+                Western Frisi...
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="xh">
+                Xhosa
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="yi">
+                Yiddish
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="yo">
+                Yoruba
+               </span>
+              </li>
+              <li class="lang-item">
+               <span class="dropdown-item" data-lang="za">
+                Zhuang, Chuan...
+               </span>
+              </li>
+             </ul>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="clear-button" id="clear-button">
+         </div>
+         <div class="search-list-results" id="search-list" style="display: none;">
+          <div class="search-list-container" id="search-results">
+          </div>
+         </div>
+        </div>
+        <div class="btn-group d-flex align-items-center justify-content-center mt-10">
+         <button class="btn-ask" type="submit">
+          Ask GPT
+         </button>
+         <a class="link-searchgpt action-ask-gpt" href="https://gptgo.ai/?q=based%20on%20this%20question%2C%3A%20Which%20of%20the%20following%20sports%20has%20special%20rules%20about%20intervals%20for%20lunch%2C%20tea%20and%20drinks%3F%20give%20me%20only%20the%20answer%20without%20description%20%20%5B%5D%20&amp;hlgpt=default&amp;hl=en">
+          Search &amp; Ask GPT
+         </a>
+        </div>
+       </form>
+       <div class="chatgpt">
+        <div class="home-gptresult" id="home-gpt" style="display: block;">
+         <div class="chatgpt-result" id="content_c">
+          <div class="chatgpt-info">
+           <img alt="Logo ChatGPT" src="images/assets/chatgpt.svg"/>
+           <span class="name">
+            ChatGPT
+           </span>
+           <button class="btn-cancel text-center" id="cancelgpt" onclick="location.reload();" style="display: none;">
+            Cancel...
+           </button>
+          </div>
+          <div class="ai-result" id="home-result" style="padding: 10px;">
+           Cricket
+          </div>
+          <div id="sugDiv" style="padding: 10px; display: block;">
+          </div>
+          <div class="waiting-chatgpt" style="display: none;">
+           <span class="waiting-text">
+            ChatGPT usually responds in
+            <span id="count_down">
+             5
+            </span>
+            seconds. Press
+            <a class="btn-errogpt" href="#">
+             try again
+            </a>
+            if waiting too long
+           </span>
+           <span class="loading">
+            <span class="dot-1">
+             .
+            </span>
+            <span class="dot-2">
+             .
+            </span>
+            <span class="dot-3">
+             .
+            </span>
+           </span>
+          </div>
+         </div>
+         <div class="chatgpt-footer" style="display: block;">
+          <div class="gpt-setting justify-content-center">
+           <a class="link-searchgpt action-ask-gpt" href="https://gptgo.ai/?q=based%20on%20this%20question%2C%3A%20Which%20of%20the%20following%20sports%20has%20special%20rules%20about%20intervals%20for%20lunch%2C%20tea%20and%20drinks%3F%20give%20me%20only%20the%20answer%20without%20description%20%20%5B%5D%20&amp;hlgpt=default&amp;hl=en">
+            Search &amp; Ask GPT
+           </a>
+           <button class="btn btn-copychat show" id="copychat">
+            Copy
+           </button>
+          </div>
+          <a class="btn-ask d-block mt-30 text-center" href="https://gptgo.ai/?hl=en">
+           Ask more questions
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <p style="text-align: center;color: grey; font-size: 12px;margin: 12px 0px 8px;">
+    ADVERTISEMENT
+   </p>
+   <div id="ads_top">
+    <pubtag class="adsbypubpower" data-ad-slot="pw_15183">
+    </pubtag>
+   </div>
+   <center>
+    <br/>
+    <a href="https://www.producthunt.com/posts/gptgo-search-gpt?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-gptgo-search-gpt" target="_blank">
+     <img alt="GPTGO - Search &amp; GPT - gptgo, chatgpt, search | Product Hunt" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=399442&amp;theme=light" style="width: 250px; height: 54px;" width="250"/>
+    </a>
+    <a href="https://apps.apple.com/app/go-ai-best-ai-search-engine/id6448216007" rel="nofollow noopener" target="_blank">
+     <img src="assets/img/apple-download.svg" style="max-width: 80%;"/>
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=com.uniapi.gptgo" rel="nofollow noopener" target="_blank">
+     <img alt="Get it on Google Play" src="assets/img/android-download.svg" style="max-width: 80%;"/>
+    </a>
+   </center>
+   <div class="fancy-faq position-relative mt-160 pb-100 lg-mt-100 lg-pb-70" id="faq">
+    <div class="container">
+     <div class="row align-items-center">
+      <div class="col-lg-8 col-md-12 col-12 offset-lg-2">
+       <div class="pe-xxl-5 text-center" data-aos="fade-right">
+        <h2 class="main-title">
+         Frequently Asked Questions
+        </h2>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="container mt-10">
+     <div class="row">
+      <div class="col-lg-12 col-12" data-aos="fade-left">
+       <div class="accordion accordion-style-one" id="accordionOne">
+        <div class="accordion-item">
+         <div class="accordion-header" id="headingOne">
+          <button aria-controls="collapseOne" aria-expanded="false" class="accordion-button" data-bs-target="#collapseOne" data-bs-toggle="collapse" type="button">
+           How is GPTGO different from regular search?
+          </button>
+         </div>
+         <div aria-labelledby="headingOne" class="accordion-collapse collapse show" data-bs-parent="#accordionOne" id="collapseOne">
+          <div class="accordion-body">
+           <p>
+            GPTGO still returns search results as usual, but adds a chatGPT query feature, so the results will also include ChatGPT answers.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading2">
+          <button aria-controls="collapse2" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse2" data-bs-toggle="collapse" type="button">
+           Do I need a ChatGPT account or sign up to use it?
+          </button>
+         </div>
+         <div aria-labelledby="heading2" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse2">
+          <div class="accordion-body">
+           <p>
+            No, you don't need a ChatGPT account or anything, we have integrated a premium ChatGPT account for you to use completely for free.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading3">
+          <button aria-controls="collapse3" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse3" data-bs-toggle="collapse" type="button">
+           Do I have to pay to use GPTGO?
+          </button>
+         </div>
+         <div aria-labelledby="heading3" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse3">
+          <div class="accordion-body">
+           <p>
+            <b>
+             GPTGO
+            </b>
+            is completely free, you can use search combined with an unlimited paid ChatGPT account and do not have to pay any fees.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading4">
+          <button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+           What devices can I use GPTGO on?
+          </button>
+         </div>
+         <div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse4">
+          <div class="accordion-body">
+           <p>
+            <b>
+             GPTGO
+            </b>
+            can be used on any device: iPhone/iPad, Android, PC, Tablet,... you only need a web browser and an internet connection to use GPTGO.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading5">
+          <button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
+           How accurate are the chatbot answers provided by GPTGO?
+          </button>
+         </div>
+         <div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse5">
+          <div class="accordion-body">
+           <p>
+            GPTGO's chatbot integrates the real-time API of Google search and Chatgpt, so the accuracy is ensured for both companies.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading6">
+          <button aria-controls="collapse6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse6" data-bs-toggle="collapse" type="button">
+           What makes GPTGO different from other search tools?
+          </button>
+         </div>
+         <div aria-labelledby="heading6" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse6">
+          <div class="accordion-body">
+           <p>
+            In addition to the search results of the current leading search engine Google, GPTGO also has ChatGPT search information to give you the fastest and most accurate results.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading7">
+          <button aria-controls="collapse7" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse7" data-bs-toggle="collapse" type="button">
+           Does GPTGO have an Android/iOS app or any way to access your website faster?
+          </button>
+         </div>
+         <div aria-labelledby="heading7" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse7">
+          <div class="accordion-body">
+           <p>
+            GPTGo has a mobile app called
+            <b>
+             Go AI
+            </b>
+            , available on both Android and iOS, you can download it at the link on the website. Btw, you can access GPTGO faster by: Setting GPTGO as the default search or Bookmarking in your favorites list if you dont want to install the app.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading8">
+          <button aria-controls="collapse8" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse8" data-bs-toggle="collapse" type="button">
+           How does GPTGO ensure user privacy and security?
+          </button>
+         </div>
+         <div aria-labelledby="heading8" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse8">
+          <div class="accordion-body">
+           <p>
+            GPTGO.AI does not store or track any user information, all user actions are anonymous and protected.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading9">
+          <button aria-controls="collapse9" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse9" data-bs-toggle="collapse" type="button">
+           Does GPTGO work on all devices and browsers?
+          </button>
+         </div>
+         <div aria-labelledby="heading9" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse9">
+          <div class="accordion-body">
+           <p>
+            Yes, GPTGO can be used on any web browser (Chrome, Firefox, Microsoft Edge,...) as well as on any device (Desktop, Mobile phone, iPhone, iPad, Laptop,...) and any operating system (Android, iOS,...)
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="accordion-item">
+         <div class="accordion-header" id="heading10">
+          <button aria-controls="collapse10" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse10" data-bs-toggle="collapse" type="button">
+           Can I suggest improvements to GPTGO's search algorithm?
+          </button>
+         </div>
+         <div aria-labelledby="heading10" class="accordion-collapse collapse" data-bs-parent="#accordionOne" id="collapse10">
+          <div class="accordion-body">
+           <p>
+            Certainly, you can send us anything (Feedback, Bugs, Advanced Suggestions, ...) and we will be very grateful for that.
+           </p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="shapes oval-one">
+    </div>
+   </div>
+   <div class="footer theme-basic-footer">
+    <div class="container-fluid">
+     <div class="inner-wrapper">
+      <div class="bottom-footer d-lg-flex justify-content-between align-items-center">
+       <div class="d-lg-flex justify-content-between align-items-center">
+        <ul class="order-lg-1 pb-15 d-flex justify-content-center footer-nav style-none">
+         <li>
+          <a href="/pages/terms-of-service.html">
+           Privacy &amp; Terms.
+          </a>
+         </li>
+        </ul>
+        <p class="copyright text-center order-lg-0 pb-15">
+         © 2023 by GPTGO 2.0
+        </p>
+       </div>
+       <div class="d-lg-flex justify-content-between align-items-center">
+        <ul class="d-flex social-icon style-none">
+         <li>
+          <a href="https://www.facebook.com/gptgodotai" target="_blank">
+           <i class="bi bi-facebook">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://twitter.com/gptgoai">
+           <i class="bi bi-twitter">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.linkedin.com/in/gptgo/">
+           <i class="bi bi-linkedin">
+           </i>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <button class="scroll-top">
+    <i class="bi bi-arrow-up-short">
+    </i>
+   </button>
+   <div id="adOverlay">
+    <div class="modal" id="get-modal">
+     <div class="modal-content">
+      <div class="modal-body" id="ad-content">
+      </div>
+      <div class="modal-footer">
+       <button class="btn btn-secondary" id="close-modal">
+        Close
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <script>
+    var powerTag = powerTag || {};
+	powerTag.rewardedConfig = powerTag.rewardedConfig || {};
+	powerTag.rewardedConfig['pw_15550'] = powerTag.rewardedConfig['pw_15550'] || {};
+	powerTag.rewardedConfig['pw_15550'].onRewarded = function (reward) {
+		// gọi sự kiện khi nhận thưởng ở đây (đủ điều kiện nhận thưởng)
+		console.log("onRewarded", reward);
+	};
+	powerTag.rewardedConfig['pw_15550'].onComplete = function (reward) {
+		// gọi sự kiện khi hoàn tất quảng cáo rewarded ở đây
+		console.log("onComplete", reward);
+	};
+	powerTag.rewardedConfig['pw_15550'].onApprove = function () {
+		// gọi sự kiện khi người dùng đồng ý xem quảng cáo
+		console.log("onApprove");
+	};
+	powerTag.rewardedConfig['pw_15550'].onReject = function () {
+		// gọi sự kiện khi người dùng từ chối xem quảng cáo
+		console.log("onReject");
+	};
+	powerTag.rewardedConfig['pw_15550'].onClose = function () {
+		// gọi sự kiện khi không có quảng cáo hoặc đóng quảng cáo
+		console.log("onClose");
+	};
+
+	(powerTag.Init = window.powerTag.Init || []).push(function () { powerAPITag.initRewarded("pw_15550") });
+
+	(powerTag.Init = window.powerTag.Init || []).push(function () { powerAPITag.getRewardedAd("pw_15550") });
+   </script>
+   <script src="js/main.js?s=2906">
+   </script>
+   <script src="js/search.js?s=1406">
+   </script>
+   <script defer="" src="https://campaign.tsminifier.net/opt/seo?target_urls=%2F">
+   </script>
+  </div>
+  <div id="promote_seo_block">
+  </div>
+  <style>
+   [data-adsbygoogle-status]:not([data-ad-slot]) { z-index: 2147483646!important; } #promote_seo_block { position: fixed; bottom: 70px; right: 70px; z-index: 2147483647; color: #d7f98d; overflow: hidden; font-family: Nunito, sans-serif; font-weight: 400; } #promote_seo_verify{ border: 1px solid #d7f98d; padding: 15px; background-color: #0000004d; } #promote_seo_verify.hide{ display: none; }
+  </style>
+  <nativetag id="hgehge_hobtsl" style="width: 0px !important; height: 0px !important; display: none !important;">
+  </nativetag>
+  <pubpower id="vi_pixel_8383" style="width: 0px !important; height: 0px !important; display: none !important;">
+  </pubpower>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following players from least to most number of &quot;Serie A&quot; appearances. give me only the answer without description  ['Francesco Janich', 'Giampiero Boniperti', 'Paolo Cannavaro', 'Giorgio Chiellini'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following players from least to most number of &quot;Serie A&quot; appearances. give me only the answer without description  ['Francesco Janich', 'Giampiero Boniperti', 'Paolo Cannavaro', 'Giorgio Chiellini'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following players from least to most number of &quot;Serie A&quot; appearances. give me only the answer without description  ['Francesco Janich', 'Giampiero Boniperti', 'Paolo Cannavaro', 'Giorgio Chiellini'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following players from least to most number of &quot;Serie A&quot; appearances. give me only the answer without description  ['Francesco Janich', 'Giampiero Boniperti', 'Paolo Cannavaro', 'Giorgio Chiellini'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange these players from most to least amount of goals scored in the Champions League. give me only the answer without description  ['Ruud van Nistelrooy', 'Raúl González', 'Hernán Crespo', 'Zlatan Ibrahimović'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange these players from most to least amount of goals scored in the Champions League. give me only the answer without description  ['Ruud van Nistelrooy', 'Raúl González', 'Hernán Crespo', 'Zlatan Ibrahimović'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange these players from most to least amount of goals scored in the Champions League. give me only the answer without description  ['Ruud van Nistelrooy', 'Raúl González', 'Hernán Crespo', 'Zlatan Ibrahimović'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange these players from most to least amount of goals scored in the Champions League. give me only the answer without description  ['Ruud van Nistelrooy', 'Raúl González', 'Hernán Crespo', 'Zlatan Ibrahimović'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the movies from newest to oldest. give me only the answer without description  ['Body Heat', 'The Way We Were', 'Satantango', 'Keeping the Faith'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the movies from newest to oldest. give me only the answer without description  ['Body Heat', 'The Way We Were', 'Satantango', 'Keeping the Faith'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the movies from newest to oldest. give me only the answer without description  ['Body Heat', 'The Way We Were', 'Satantango', 'Keeping the Faith'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the movies from newest to oldest. give me only the answer without description  ['Body Heat', 'The Way We Were', 'Satantango', 'Keeping the Faith'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following celebrities from youngest to oldest. give me only the answer without description  ['Elias Harger', 'Dave Coulier', 'Adam Hagenbuch', 'Marla Sokoloff'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following celebrities from youngest to oldest. give me only the answer without description  ['Elias Harger', 'Dave Coulier', 'Adam Hagenbuch', 'Marla Sokoloff'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following celebrities from youngest to oldest. give me only the answer without description  ['Elias Harger', 'Dave Coulier', 'Adam Hagenbuch', 'Marla Sokoloff'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Arrange the following celebrities from youngest to oldest. give me only the answer without description  ['Elias Harger', 'Dave Coulier', 'Adam Hagenbuch', 'Marla Sokoloff'] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=&amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Which of the following sports has special rules about intervals for lunch, tea and drinks? give me only the answer without description  [] &amp;callback=searchData&amp;hl=en">
+  </script>
+  <script src="https://suggestqueries.google.com/complete/search?client=chrome&amp;q=based on this question,: Which of the following sports has special rules about intervals for lunch, tea and drinks? give me only the answer without description  [] &amp;callback=searchData&amp;hl=en">
+  </script>
+ </body>
+</html>
